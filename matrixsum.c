@@ -1,5 +1,5 @@
 #include <stdio.h>
-int funcReadMatrix(int x[15][15],int r,int c)
+void funcReadMatrix(int x[15][15],int r,int c)
 {
   int i,j;
   for(i=0 ;i<r;i++)
@@ -10,7 +10,7 @@ int funcReadMatrix(int x[15][15],int r,int c)
     }
   }
 }
-int funcSumMatrix(int a[15][15],int b[15][15],int r, int c)
+void funcSumMatrix(int a[15][15],int b[15][15],int r, int c)
 {
   int i,j,sum ;
   for(i=0;i<r;i++)
